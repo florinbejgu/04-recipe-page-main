@@ -1,0 +1,51 @@
+/* ************************************ */
+/* GLOBAL RESET *********************** */
+/* ************************************ */
+
+*,
+*::before,
+*::after {
+  /* Debugging */
+  /* border: 1px solid red; */
+  /* background: rgba(0, 100, 0, 0.1); */
+
+  /* Global reset of all elements and pseudo-elements, removing default padding&margin */
+  padding: 0;
+  margin: 0;
+  /* Change the Box model so width and height INCLUDE padding and border */
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 1rem rgba(255, 0, 0, 0.5);
+}
+
+html {
+  /* set 1rem to be font-size: 10px so font size calculation is easier e.g. 1.6rem is 16px instead of 1.6 rem being 25.6px*/
+  /* 10px / 16px = 0.625 = 62.5% */
+  /* Percentage of user's browser font-size setting */
+  font-size: 62.5%;
+  /* Scrolling to jump links is smooth */
+  scroll-behavior: smooth;
+}
+
+/* Setting text properties */
+body {
+  color: #000;
+  font-family: sans-serif;
+  font-size: 2rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+
+/* Just one border between table cells */
+table {
+  border-collapse: collapse;
+}
+
+/* ************************************ */
+/* GENERAL */
+/* ************************************ */
