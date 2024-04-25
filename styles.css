@@ -46,6 +46,19 @@ table {
   border-collapse: collapse;
 }
 
+@font-face {
+  font-family: "Outfit";
+  src: url("assets/fonts/outfit/Outfit.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Young serif";
+  src: url("/assets/fonts/young-serif/YoungSerif-Regular.woff2") format("woff2");
+}
+
 /* ************************************ */
 /* GENERAL */
 /* ************************************ */
+
+h1 {
+  font-family: Outfit;
+}
