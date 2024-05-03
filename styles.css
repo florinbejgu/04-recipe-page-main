@@ -137,6 +137,7 @@ p {
 
 .preparation-time-inner span {
   margin-left: 15px;
+  font-size: 1.5rem;
 }
 
 li strong {
@@ -158,6 +159,7 @@ ul {
 
 .ingredients li {
   padding-left: 15px;
+  font-size: 1.5rem;
 }
 
 hr {
@@ -212,4 +214,22 @@ td:nth-child(even) {
 }
 
 @media screen and (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    border-radius: 0;
+  }
+
+  .hero-img img {
+    max-width: 100%;
+    margin-top: 0;
+    border-radius: 0;
+  }
+
+  .wrapper-inside {
+    width: 650px;
+    margin: 0 auto 0;
+  }
 }
