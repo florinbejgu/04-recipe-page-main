@@ -229,7 +229,23 @@ td:nth-child(even) {
   }
 
   .wrapper-inside {
-    width: 650px;
+    width: 100%;
     margin: 0 auto 0;
+  }
+
+  /* .wrapper-inside p {
+    margin: 0 2em;
+  }
+
+  .wrapper-inside h1 {
+    margin-left: 2em;
+  }
+
+  .preparation-time {
+    margin: 0 2em;
+    margin-top: 40px;
+  } */
+  .mobile {
+    margin: 0 2em;
   }
 }
